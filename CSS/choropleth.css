@@ -1,0 +1,24 @@
+.country:hover{
+    fill:rgb(235, 138, 138)
+}
+.selection{
+    position:absolute;
+    width:40%;
+    top:65px;
+    left:140px
+        
+}
+.tooltip {	
+    position: absolute;			
+    text-align: left;
+    color:white;			
+    width: auto;					
+    height: auto;					
+    padding: 10px;				
+    font: 12px sans-serif;		
+    background: 
+    rgb(66, 63, 63);	
+    border: 2px;		
+    border-radius: 3px;	
+    pointer-events: none;			
+}
