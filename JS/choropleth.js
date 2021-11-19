@@ -18,8 +18,8 @@ var projection =  d3.geoNaturalEarth1() //d3-geo-projection
 var pathGenerator = d3.geoPath().projection(projection);
                                           
 Promise.all([
-    d3.csv('ratings-by-country.csv'),
-    d3.json('world_countries.json')
+    d3.csv('DATA/ratings-by-country.csv'),
+    d3.json('DATA/world_countries.json')
 ]).then(([gameData, topoData])=>{
 
             ready(topoData, gameData) //-added ready function
